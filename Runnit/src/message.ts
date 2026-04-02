@@ -26,5 +26,5 @@ export type LeaderboardEntry = {
 export type DevvitSystemMessage = {
   data: { message: DevvitMessage };
   /** Reserved type for messages sent via `context.ui.webView.postMessage`. */
-  type?: 'devvit-message' | string;
+  type?: 'devvit-message';
 };
